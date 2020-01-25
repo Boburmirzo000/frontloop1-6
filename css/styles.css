@@ -41,15 +41,18 @@ body{
 }
 .card{
   max-width: 1050px;
+  display: flex;
 margin: 0 auto;
 margin-top: 50px;
+border-radius: 5px;
+box-shadow: 0 0 5px 1px rgba(1,2, 0, 0.9);
 }
 .joining-card{
   width: 650px;
   background-color: #fff;
 }
 .card-info{
-  padding: 70px 60px 60px 65px;
+  padding: 50px 30px 40px 35px;
   border-bottom: 1px solid #ccc;
 }
 .card-heading{
@@ -105,4 +108,20 @@ margin-top: 50px;
   height: 25px;
   background-image: url("../img/twitter.svg");
   content: "";
+}
+.footer-part{
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 30px 25px 35px;
+}
+.footer-text{
+  font-weight: 500;
+  color:#000;
+}
+.footer-link{
+
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#aaa;
+  font-weight: 500;
 }
