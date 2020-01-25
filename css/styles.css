@@ -35,3 +35,74 @@
   *::after {
   	box-sizing: inherit;
   }
+body{
+  font-family: "Roboto";
+  background-color: #4d515d;
+}
+.card{
+  max-width: 1050px;
+margin: 0 auto;
+margin-top: 50px;
+}
+.joining-card{
+  width: 650px;
+  background-color: #fff;
+}
+.card-info{
+  padding: 70px 60px 60px 65px;
+  border-bottom: 1px solid #ccc;
+}
+.card-heading{
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 300;
+  font-size: 48px;
+}
+.card-text{
+  margin: 0;
+  margin-bottom: 65px;
+  font-weight: 400;
+  color:#aaa;
+}
+.card-list{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.card-link{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 24px;
+  border:1px solid #ccc;
+  text-decoration: none;
+  color:#aaa;
+  font-weight: 500;
+}
+.card-link--google::before{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/googleplus.svg");
+  content: "";
+}.card-link--facebook::before{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/facebook.svg");
+  content: "";
+}.card-link--twitter::before{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 25px;
+  height: 25px;
+  background-image: url("../img/twitter.svg");
+  content: "";
+}
